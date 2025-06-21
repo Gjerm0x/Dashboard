@@ -21,8 +21,7 @@ This dashboard provides interactive tables and charts that let users:
 - **SQLite** — as the lightweight data store (`analytics.db`)  
 - **Pathlib** — for platform-independent file paths  
 - **Python Standard Library** — for utilities and supporting logic  
-
-_(Plus any charting library you included, e.g., Plotly, Altair, or Matplotlib.)_
+- **Altair** - for Streamlit native interactive visualization scatter plot
 
 ## Methodology
 
