@@ -6,7 +6,7 @@ import altair as alt
 from pathlib import Path
 
 BASE_DIR=Path.cwd()
-DB_PATH = BASE_DIR/ "Streamlit_Dash_Salaries"  / "analytics.db"
+DB_PATH = BASE_DIR / "analytics.db"
 engine = create_engine(f"sqlite:///{DB_PATH}")
 print("Working dir:", Path.cwd())
 print("Looking for DB at:", DB_PATH)
