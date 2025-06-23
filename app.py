@@ -28,7 +28,8 @@ cat  = load_table("category_summary")
 st.title("Career Analysis Dashboard")
 
 st.header("Raw Data by Rank")
-st.dataframe(raw)
+styled=raw.style.hide_index()
+st.dataframe(styled)
 
 st.header("Meaning vs Salary Regression")
 chart = (
